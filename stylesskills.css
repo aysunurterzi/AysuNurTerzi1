@@ -1,0 +1,28 @@
+body {
+  text-align: center;
+  background-color: #B6C3DE;
+}
+
+
+.btnsearch {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #000000;
+  font-size: 14px;
+  background: #B6C3DE;
+  padding: 10px 20px 10px 20px;
+  border: solid #000000 2px;
+  text-decoration: none;
+}
+
+.btnsearch:hover {
+
+  background-image: -webkit-linear-gradient(left, #B6C3DE, #B6C3DE);
+  background-image: -moz-linear-gradient(right, #B6C3DE, #B6C3DE);
+  background-image: -o-linear-gradient(right, #B6C3DE, #B6C3DE);
+  background-image: linear-gradient(to right, #B6C3DE, #BACDD9);
+  text-decoration: none;
+  border-color: black;
+  color: black;
+}
