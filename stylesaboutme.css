@@ -2,7 +2,7 @@ body {
   background-color: #91817E;
   text-align: center;
   background-image: url('codeing.png');
-  background-size: 1444px auto;
+  background-size: 100% auto;
 }
 
 p {
@@ -25,26 +25,30 @@ H1 {
   width: 32%;
   margin: 0px auto 50px auto;
   text-align: left;
+  background-color: white;
+  padding: 5px 15px 5px 15px;
 }
 
 hr {
   background-color: #11ffee00;
   border-top: 12px dotted black;
-  width: 160px;
+  width: 35%;
 }
 
 .skill-row {
-  margin: 30px auto 10px auto;
+  margin: 30px 8% 30px 8%;
   float: left;
+  background-color: white;
+  border: 3px solid black ;
+  border-radius: 10px 10px;
+
 }
 
-.hobiespic-voleyball {
+.hobiespic {
+  margin-top:8px;
   width: 25%;
 }
 
-.hobiespic-drawing {
-  width: 25%;
-}
 
 .kutu-üst {
   width: 100%;
