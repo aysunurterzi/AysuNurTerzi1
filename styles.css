@@ -1,32 +1,84 @@
 body {
+  background-color: #91817E;
   text-align: center;
-  background-color: #B6C3DE;
-  background-image: url('kod1.png');
-  background-repeat: no-repeat;
-  background-size: 1444px auto;
-}
-
-h2 {
-  font-size: 2.0rem;
-  margin: 50px auto 20px auto;
-  font-family: 'Sacramento', cursive;
+  background-image: url('codeing.png');
+  background-size: 100% auto;
 }
 
 p {
-  margin: 8px;
+  font-family: 'Marck Script', cursive;
+  font-size: 19px;
+  padding-bottom: 3px;
 }
-.home{
-margin-top: 200px
 
-
+.layer {
+  width: 28%;
+  height: 25%;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+  padding: 5px 5px;
 }
-.kodimg {
-  margin-top: 0px;
+
+h2 {
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-family: 'Marck Script', cursive;
+}
+
+.dal2 {
   position: absolute;
-  width: 1444px;
-  height: 730px;
-  left: 4px;
-  top: 0px;
+  left: 4%;
+  max-width: 14%;
+}
+
+.dal1{
+  position: absolute;
+  right: 4%;
+  max-width: 14%;
+
+}
+
+.home-row {
+  width: 60%;
+  margin: 0px auto 50px auto;
+  text-align: left;
+  background-color: white;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px 10px;
+  border: 2px solid black;
+}
+
+hr {
+  background-color: #11ffee00;
+  border-top: 12px dotted black;
+  width: 35%;
+}
+
+.skill-row {
+  margin: 30px 8% 30px 8%;
+  float: left;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+}
+
+.hobiespic {
+  margin-top: 8px;
+  width: 25%;
+}
+
+.kutu-üst {
+  width: 100%;
+  height: 130px;
+}
+
+.kutu-alt {
+  width: 100%;
+  height: 500px;
 }
 
 .btnsearch {
@@ -35,56 +87,18 @@ margin-top: 200px
   border-radius: 10px;
   color: #000000;
   font-size: 14px;
-  background: #B6C3DE;
+  background: #91817E;
   padding: 10px 20px 10px 20px;
   border: solid #000000 2px;
   text-decoration: none;
 }
 
 .btnsearch:hover {
-  background-image: -webkit-linear-gradient(left, #B6C3DE, #B6C3DE);
-  background-image: -moz-linear-gradient(right, #B6C3DE, #B6C3DE);
-  background-image: -o-linear-gradient(right, #B6C3DE, #B6C3DE);
-  background-image: linear-gradient(to right, #B6C3DE, #BACDD9);
+  background-image: -webkit-linear-gradient(left, #91817E, #CBA49D);
+  background-image: -moz-linear-gradient(right, #91817E, #CBA49D);
+  background-image: -o-linear-gradient(right, #91817E, #CBA49D);
+  background-image: linear-gradient(to right, #91817E, #CBA49D);
   text-decoration: none;
   border-color: black;
   color: black;
-}
-
-.home-row {
-  width: 60%;
-  margin: 50px auto 120px auto;
-  text-align: left;
-}
-
-.aysu-img {
-  border-radius: 50%;
-  border: solid 3px;
-  width: 200px;
-  float: left;
-  margin-right: 30px;
-  margin-left: 28%;
-  margin-bottom: 20px;
-}
-
-.logo {
-  width: 45px;
-  margin-right: 20px;
-  margin-top: 10px;
-}
-
-.logo:hover {
-  background-image: linear-gradient(80deg, orange, #810000);
-  border-radius: 50%;
-}
-
-.icon {
-  width: 25px;
-  float: left;
-  margin-right: 8px;
-}
-
-.kutu-üst {
-  width: 100%;
-  height: 180px;
 }
