@@ -5,6 +5,126 @@ body {
   background-size: 100% auto;
 }
 
+.arkakutu{
+  position: absolute;
+  background-color: black;
+  width: 300px;
+  height: 36px;
+  opacity: 30%;
+
+
+}
+h3{
+  color: black;
+  border:2px solid black;
+}
+ p{
+font-style: italic;
+   margin-top: 10%;
+   margin-left: 10%;
+   text-align: center;
+   width: 80%;
+   height: auto;
+ }
+
+.linka{
+  padding: 5px;
+  text-decoration: none;
+  background-color: black;
+  background-size: 1000px 1000px;
+  color: white;
+  border-radius: 10px;
+}
+.linka:hover{
+color: #B6C3DE;
+}
+
+
+.kutucuk1{
+height: 300px;
+width: 300px;
+background-image: url('c++.png');
+background-color: white;
+background-size: 220px auto;
+background-position: center;
+background-repeat: no-repeat;
+margin: 5px 5px 5px 5px;
+border-radius: 10px;
+padding: 0px;
+
+}
+
+.kutucuk2{
+height: 300px;
+width: 300px;
+background-image: url('sql.png');
+background-color: white;
+background-size: 220px auto;
+background-position: center;
+background-repeat: no-repeat;
+margin: 5px 5px 5px 5px;
+border-radius: 10px;
+padding: 0px;
+
+}
+
+.kutucuk3{
+height: 300px;
+width: 300px;
+background-image: url('html.png');
+background-color: white;
+background-size: 220px auto;
+background-position: center;
+background-repeat: no-repeat;
+margin: 5px 5px 5px 5px;
+border-radius: 10px;
+padding: 0px;
+
+}
+
+.kutucuk4{
+height: 300px;
+width: 300px;
+background-image: url('css.png');
+background-color: white;
+background-size: 220px auto;
+background-position: center;
+background-repeat: no-repeat;
+margin: 5px 5px 5px 5px;
+border-radius: 10px;
+padding: 0px;
+
+}
+
+.kutucuk5{
+height: 300px;
+width: 300px;
+background-image: url('java-script.png');
+background-color: white;
+background-size: 220px auto;
+background-position: center;
+background-repeat: no-repeat;
+margin: 5px 5px 5px 5px;
+border-radius: 10px;
+padding: 0px;
+
+}
+
+.kutucuk6{
+height: 300px;
+width: 300px;
+background-image: url('csharp.png');
+background-color: white;
+background-size: 220px auto;
+background-position: center;
+background-repeat: no-repeat;
+margin: 5px 5px 5px 5px;
+border-radius: 10px;
+padding: 0px;
+
+}
+
+
 
 .btnsearch {
   -webkit-border-radius: 10;
