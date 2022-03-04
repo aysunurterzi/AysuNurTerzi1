@@ -29,14 +29,21 @@ h1 {
   font-family: 'Marck Script', cursive;
 }
 
-.dal1 {
+.dal2 {
   position: absolute;
-  left: 60px;
+  left: 4%;
   max-width: 14%;
 }
 
+.dal1{
+  position: absolute;
+  right: 4%;
+  max-width: 14%;
+
+}
+
 .home-row {
-  width: 38%;
+  width: 60%;
   margin: 0px auto 50px auto;
   text-align: left;
   background-color: white;
