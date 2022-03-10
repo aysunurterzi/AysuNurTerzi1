@@ -11,14 +11,10 @@ p {
   padding-bottom: 3px;
 }
 
-.layer {
-  width: 28%;
-  height: 25%;
-  background-color: white;
-  text-align: center;
-  border: 2px solid black;
-  border-radius: 10px 10px;
-  padding: 5px 5px;
+hr {
+  background-color: #11ffee00;
+  border-top: 12px dotted black;
+  width: 35%;
 }
 
 h2 {
@@ -29,58 +25,12 @@ h1 {
   font-family: 'Marck Script', cursive;
 }
 
-.dal2 {
-  position: absolute;
-  left: 4%;
-  max-width: 14%;
+img {
+  max-width: 100px;
+  height: auto;
 }
 
-.dal1{
-  position: absolute;
-  right: 4%;
-  max-width: 14%;
-
-}
-
-.home-row {
-  width: 60%;
-  margin: 0px auto 50px auto;
-  text-align: left;
-  background-color: white;
-  padding: 5px 15px 5px 15px;
-  border-radius: 10px 10px;
-  border: 2px solid black;
-}
-
-hr {
-  background-color: #11ffee00;
-  border-top: 12px dotted black;
-  width: 35%;
-}
-
-.skill-row {
-  margin: 30px 8% 30px 8%;
-  float: left;
-  background-color: white;
-  border: 2px solid black;
-  border-radius: 10px 10px;
-}
-
-.hobiespic {
-  margin-top: 8px;
-  width: 25%;
-}
-
-.kutu-üst {
-  width: 100%;
-  height: 130px;
-}
-
-.kutu-alt {
-  width: 100%;
-  height: 500px;
-}
-
+/* navbar button */
 .btnsearch {
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
@@ -101,4 +51,120 @@ hr {
   text-decoration: none;
   border-color: black;
   color: black;
+}
+
+/* second nevbar */
+.secondnevbar {
+  margin-top: 20px;
+  top: 70px;
+  left: 5%;
+  right: 5%;
+  position: fixed;
+  text-align: center;
+
+}
+
+.nav-item2{
+  background-color: black;
+
+}
+.nav-link{
+  text-decoration: none;
+  color: grey;
+}
+
+.nav-link:hover{
+  color:#CBA49D;
+}
+
+/* first row */
+.kutu-üst {
+  width: 100%;
+  height: 130px;
+}
+
+.dal2 {
+  position: absolute;
+  left: 4%;
+  max-width: 14%;
+}
+
+.dal1 {
+  position: absolute;
+  right: 4%;
+  max-width: 14%;
+}
+
+.first-row {
+  width: 60%;
+  margin: 0px auto 50px auto;
+  text-align: left;
+  background-color: white;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px 10px;
+  border: 2px solid black;
+}
+
+/* second row */
+.container {
+  border: solid 2px black;
+  padding: 0px;
+  background-color: white;
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+}
+
+.aokul {
+  text-decoration: none;
+  color: black;
+  background-color: #899177;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 5px;
+}
+
+a:hover {
+  color: #B6C3AE;
+  text-decoration: none;
+}
+
+.second-row {
+  width: 78%;
+  height: auto;
+  margin: auto auto;
+  text-align: center;
+}
+
+.ortacol {
+  margin: 10px;
+  max-width: 124px;
+  height: auto;
+}
+
+/* third row */
+.layer {
+  width: 200px;
+  background-color: white;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+  padding: 10px;
+}
+
+.skill-row {
+  margin-top: 0px;
+
+  width: 250px;
+  height: auto;
+  margin: 30px 8% 30px 8%;
+  float: left;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+}
+
+.hobiespic {
+  margin-top: 8px;
+  width: 25%;
 }
