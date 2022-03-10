@@ -1,33 +1,78 @@
 body {
   text-align: center;
-  background-color: #B6C3DE;
+  background-color: #899177;
   background-image: url('codeing.png');
   background-size: 100% auto;
 }
 
-.arkakutu{
-  position: absolute;
-  background-color: black;
-  width: 300px;
-  height: 36px;
-  opacity: 30%;
-
-
-}
-h3{
+h3 {
   color: black;
-  border:2px solid black;
+  border: 2px solid black;
 }
- p{
-font-style: italic;
-   margin-top: 10%;
-   margin-left: 10%;
-   text-align: center;
-   width: 80%;
-   height: auto;
- }
 
-.linka{
+/* beyaz kutucuklar */
+.kutucuk {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  margin: 5px 5px 5px 5px;
+  border-radius: 10px;
+  padding: 25px;
+}
+
+/* arkaplan resimleri ayarlamak için */
+.yazılar1 {
+  width: 250px;
+  height: 250px;
+  background-image: url('c++.png');
+  opacity: 15%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.yazılar2 {
+  width: 250px;
+  height: 250px;
+  background-image: url('sql.png');
+  opacity: 15%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.yazılar3 {
+  width: 250px;
+  height: 250px;
+  background-image: url('html.png');
+  opacity: 15%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+.yazılar4 {
+  width: 250px;
+  height: 250px;
+  background-image: url('css.png');
+  opacity: 15%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+.yazılar5 {
+  width: 250px;
+  height: 250px;
+  background-image: url('java-script.png');
+  opacity: 15%;
+  background-size: 250px;
+  background-repeat: no-repeat;
+  position: absolute;
+}
+
+/* link gönderme butonları */
+.linka {
+  position: relative;
   padding: 5px;
   text-decoration: none;
   background-color: black;
@@ -35,96 +80,10 @@ font-style: italic;
   color: white;
   border-radius: 10px;
 }
-.linka:hover{
-color: #B6C3DE;
+
+.linka:hover {
+  color: #B6C3DE;
 }
-
-
-.kutucuk1{
-height: 300px;
-width: 300px;
-background-image: url('c++.png');
-background-color: white;
-background-size: 220px auto;
-background-position: center;
-background-repeat: no-repeat;
-margin: 5px 5px 5px 5px;
-border-radius: 10px;
-padding: 0px;
-
-}
-
-.kutucuk2{
-height: 300px;
-width: 300px;
-background-image: url('sql.png');
-background-color: white;
-background-size: 220px auto;
-background-position: center;
-background-repeat: no-repeat;
-margin: 5px 5px 5px 5px;
-border-radius: 10px;
-padding: 0px;
-
-}
-
-.kutucuk3{
-height: 300px;
-width: 300px;
-background-image: url('html.png');
-background-color: white;
-background-size: 220px auto;
-background-position: center;
-background-repeat: no-repeat;
-margin: 5px 5px 5px 5px;
-border-radius: 10px;
-padding: 0px;
-
-}
-
-.kutucuk4{
-height: 300px;
-width: 300px;
-background-image: url('css.png');
-background-color: white;
-background-size: 220px auto;
-background-position: center;
-background-repeat: no-repeat;
-margin: 5px 5px 5px 5px;
-border-radius: 10px;
-padding: 0px;
-
-}
-
-.kutucuk5{
-height: 300px;
-width: 300px;
-background-image: url('java-script.png');
-background-color: white;
-background-size: 220px auto;
-background-position: center;
-background-repeat: no-repeat;
-margin: 5px 5px 5px 5px;
-border-radius: 10px;
-padding: 0px;
-
-}
-
-.kutucuk6{
-height: 300px;
-width: 300px;
-background-image: url('csharp.png');
-background-color: white;
-background-size: 220px auto;
-background-position: center;
-background-repeat: no-repeat;
-margin: 5px 5px 5px 5px;
-border-radius: 10px;
-padding: 0px;
-
-}
-
-
 
 .btnsearch {
   -webkit-border-radius: 10;
@@ -132,18 +91,17 @@ padding: 0px;
   border-radius: 10px;
   color: #000000;
   font-size: 14px;
-  background: #B6C3DE;
+  background: #899177;
   padding: 10px 20px 10px 20px;
   border: solid #000000 2px;
   text-decoration: none;
 }
 
 .btnsearch:hover {
-
-  background-image: -webkit-linear-gradient(left, #B6C3DE, #B6C3DE);
-  background-image: -moz-linear-gradient(right, #B6C3DE, #B6C3DE);
-  background-image: -o-linear-gradient(right, #B6C3DE, #B6C3DE);
-  background-image: linear-gradient(to right, #B6C3DE, #BACDD9);
+  background-image: -webkit-linear-gradient(left, #899177, #89918C);
+  background-image: -moz-linear-gradient(right, #899177, #89918C);
+  background-image: -o-linear-gradient(right, #899177, #89918C);
+  background-image: linear-gradient(to right, #899177, #89918C);
   text-decoration: none;
   border-color: black;
   color: black;
