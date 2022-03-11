@@ -5,6 +5,10 @@ body {
   background-size: 100% auto;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 p {
   font-family: 'Marck Script', cursive;
   font-size: 19px;
