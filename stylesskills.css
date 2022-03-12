@@ -4,71 +4,106 @@ body {
   background-image: url('codeing.png');
   background-size: 100% auto;
 }
+h2{
+  margin:0px;
+}
 
 h3 {
   color: black;
   border: 2px solid black;
+  margin-bottom: 20px;
 }
 
-/* beyaz kutucuklar */
-.kutucuk {
-  height: 300px;
-  width: 300px;
+.hard-skills {
+  width: 250px;
+  border-radius: 10px;
   background-color: white;
-  margin: 5px 5px 5px 5px;
+  color: black;
+  border: 2px solid black;
+  padding: 5px;
+}
+
+/* hard-skills beyaz kutucuklar */
+.kutucuk {
+  height: 350px;
+  width: 350px;
+  background-color: white;
+  margin: 30px;
   border-radius: 10px;
   padding: 25px;
+  border: 2px black solid;
 }
+
+/* soft-skills beyaz kutucuklar */
+.kutucuk2 {
+  height: 100px;
+  width: 300px;
+  background-color: white;
+  margin: 30px;
+  border-radius: 10px;
+  padding: 25px;
+    border: 2px black solid;
+}
+
+
 
 /* arkaplan resimleri ayarlamak için */
 .yazılar1 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-image: url('c++.png');
+  background-position: center;
   opacity: 15%;
-  background-size: 250px;
+  background-size: 300px;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 .yazılar2 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-image: url('sql.png');
+  background-position: center;
   opacity: 15%;
-  background-size: 250px;
+  background-size: 300px;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 .yazılar3 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-image: url('html.png');
+  background-position: center;
   opacity: 15%;
-  background-size: 250px;
+  background-size: 300px;
   background-repeat: no-repeat;
   position: absolute;
 }
 
 .yazılar4 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-image: url('css.png');
+  background-position: center;
   opacity: 15%;
-  background-size: 250px;
+  background-size: 300px;
   background-repeat: no-repeat;
   position: absolute;
 }
+
 .yazılar5 {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  height: 300px;
   background-image: url('java-script.png');
+  background-position: center;
   opacity: 15%;
-  background-size: 250px;
+  background-size: 300px;
   background-repeat: no-repeat;
   position: absolute;
 }
+
+
 
 /* link gönderme butonları */
 .linka {
