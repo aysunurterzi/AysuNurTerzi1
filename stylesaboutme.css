@@ -34,17 +34,19 @@ img {
   height: auto;
 }
 
-#flag{
+#flag {
   border-radius: 100%;
   border: solid 2px black;
 }
-#languagep{
+
+#languagep {
   border: 2px solid black;
   border-radius: 10px;
   padding: 5px;
   background-color: white;
   font-size: 25px;
 }
+
 /* navbar button */
 .btnsearch {
   -webkit-border-radius: 10;
@@ -72,24 +74,23 @@ img {
 .secondnevbar {
   margin-top: 20px;
   top: 70px;
+  position: fixed;
   left: 1%;
   right: 1%;
-  position: fixed;
   text-align: center;
-
 }
 
-.nav-item2{
+.nav-item2 {
   background-color: black;
-
 }
-.nav-link{
+
+.nav-link {
   text-decoration: none;
   color: grey;
 }
 
-.nav-link:hover{
-  color:#CBA49D;
+.nav-link:hover {
+  color: #CBA49D;
 }
 
 /* first row */
@@ -167,9 +168,16 @@ a:hover {
   padding: 10px;
 }
 
+.row1 {
+  margin-top: 0px;
+  width: 250px;
+  height: auto;
+  margin: 0px 5% 30px 5%;
+}
+
+
 .skill-row {
   margin-top: 0px;
-
   width: 250px;
   height: auto;
   margin: 30px 8% 30px 8%;
