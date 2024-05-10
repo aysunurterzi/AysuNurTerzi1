@@ -1,7 +1,7 @@
 body {
   text-align: center;
   background-color: #899177;
-  background-image: url('./img/kod1.png');
+  background-image: url('/img/kod1.png');
   background-size: 100% auto;
 }
 
